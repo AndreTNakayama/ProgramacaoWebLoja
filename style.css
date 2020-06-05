@@ -1,0 +1,340 @@
+/* ------------------------- BODY ------------------------- */
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+    margin: 0;
+}
+
+/* ------------------------- HEADER ------------------------- */
+
+#header{
+    width: 100%;
+    height: 460px;
+}
+
+span{
+    color: crimson;
+}
+
+#tituloKey:hover{
+    font-size: 60px;
+    cursor: pointer;
+}
+
+/* ------------------------- Título ------------------------- */
+
+#tituloLogo{
+    text-align: center;
+    color: #262626;
+    height: 120px;
+    line-height: 120px;
+    font-size: 50px;
+    margin: 0;
+}
+
+/* ------------------------- Menu ------------------------- */
+
+.menu{
+    width: 100%;
+}
+
+.listaMenu{
+    width: 1300px;
+    margin: 0px auto;
+    position: relative;
+    left: 50%;
+    margin-left: -670px;
+}
+
+.menu ul{
+    list-style: none;
+    margin-top: 1px;
+}
+
+.menu a{
+    text-decoration: none;
+}
+
+.menu a:visited, .menu a:link{
+    color: white;
+}
+
+.menu ul li{
+    position: relative;
+    background: #262626;
+    width: 208.3px;
+    border: 1px solid #fff;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    color: #fff;
+    font-size: 14px;
+}
+
+.menu ul li:hover{
+    background: crimson;
+}
+
+.menu ul ul{
+    display: none; /* Ocultar elementos sem excluir */
+    margin-left: -41px;
+}
+
+.menu ul li:hover > ul{
+    display: block;
+}
+
+/* ------------------------- Imagem Menu ------------------------- */
+
+#imagemHeader{
+    background-image: url('imagens/videoGames.png');
+    width: 1260px;
+    margin: 0 auto; 
+    height: 250px;
+    margin-top: 90px;
+    background-repeat: no-repeat; /* A imagem de fundo não se repete. A imagem será mostrada apenas uma vez */
+    background-position: center; /* É uma propriedade que nos permite definir onde uma imagem de plano de fundo deve ser posicionada dentro de um elemento. */
+    background-color: #262626;
+}
+
+#txtImgHeader{
+    position: relative;
+    text-align: center;
+    margin: 0;
+    padding-top: 180px;
+    display: none;
+}
+
+/* ------------------------- CONTEÚDO ------------------------- */
+
+#content{
+    width: 1230px;
+    background-color: white;
+    position: relative;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* ------------------------- Títulos ------------------------- */
+
+.titulos{
+    text-align: center;
+    color: crimson;
+}
+
+.subtitulo{
+    font-size: 25px;
+    text-align: center;
+    color: crimson;
+    margin-top: 50px;
+}
+
+/* ------------------------- Produtos ------------------------- */
+
+#produtos{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#produtos table{
+    border-spacing: 25px;
+    border-collapse: separate;
+    text-align: center;
+}
+
+#produtos td {  
+    width: 280px;
+    height: 475px;
+    color: #262626;
+    font-size: 15px;
+}
+
+#produtos td:hover{
+    box-shadow: 0.5px 1px 5px crimson;
+}
+
+.nomeJogo{
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 38px;
+    font-weight: bold;
+    color: crimson;
+    font-size: 16px;
+    margin: 0;
+}
+
+#produtos td img {
+    width: 180px;
+    height: 200px;
+    margin-top: 5px;
+    border: 2px solid crimson;
+}
+
+.precoJogo{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.precoParcelado span{
+    font-size: 18px;
+}
+
+.precoBoleto span{
+    font-size: 18px;
+}
+
+
+/* ------------------------- FOOTER ------------------------- */
+
+#footer{
+    background: #262626;
+    height: auto;
+    width: 100%;
+}
+
+#infoFooter{
+    width: 1270px;
+    margin: 0px auto;
+}
+
+#infoFooter table{
+    padding-top: 10px;
+    border-spacing: 40px;
+    border-collapse: separate;
+    text-align: justify;
+}
+
+#infoFooter td{    
+    width: 260px;
+    font-size: 15px;
+    vertical-align: baseline; /* O elemento está alinhado com a linha de base do elemento pai.*/
+    padding-left: 20px;
+}
+
+#logoFooter{
+    color: crimson;
+    font-size: 25px;
+    padding-top: 10px;
+    margin: 0;
+}
+
+
+.tituloFooter{
+    color: crimson;
+    font-size: 25px;
+    margin: 0;
+}
+
+.subtituloFooter{
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+}
+
+#infoFooter p {    
+    color: white;
+}
+
+#infoFooter a{
+    text-decoration: none;
+    color: white;
+}
+
+
+#sobreNos{
+    text-align: justify;
+}
+
+.containerFooter{
+    width: 180px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.imgRedeSocial{
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+
+.txtRedeSocial{
+    float: left;
+    line-height: 30px;
+    margin: 0;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+/* ------------------------- BOTÃO ------------------------- */
+
+/* Os botões no HTML possuem um comando 'disabled', ou seja, estão desabilitados */
+
+button{
+    border:1px solid crimson;
+    border-radius:5px;
+    cursor:pointer;
+    font-weight:bold;
+    font-size:15px;
+    padding:5px 15px;
+}
+
+.btnCrimson{
+    background:linear-gradient(to bottom, rgb(255, 65, 105) 5%,crimson 100%);
+    color:#fff;
+}
+
+.btnCrimson:hover{
+    background:linear-gradient(to bottom, crimson 5%, rgb(255, 65, 105) 100%);
+}
+
+button{ 
+    outline: none;
+    /* Comando utilizado para tirar o efeito de borda do botão após ser clicado */
+    /* Outline é uma linha que é desenhada ao redor dos elementos para destacar o elemento. Utilizando a propriedade
+    none o elemento não aparece */
+}
+
+/* ------------------------- SOBRE ------------------------- */
+
+#divSobre{
+    width: 1270px;
+    position: relative;
+    left: 50%;
+    margin-left: -635px;
+}
+
+#sobre table { 
+    border-spacing: 30px;
+    border-collapse: separate;
+    text-align: center;
+}
+
+#sobre td {    
+    width: 420px;
+    color: #eb4b5e;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    vertical-align: baseline; /* O elemento está alinhado com a linha de base do elemento pai.*/
+}
+
+#txtSobre{
+    text-align: justify;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 50px;
+    font-size: 16px;
+}
+
+.tituloTxtSobre{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.txtContentSobre{
+    font-size: 15px;
+    text-align: justify;
+}
